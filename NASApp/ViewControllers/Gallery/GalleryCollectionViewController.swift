@@ -93,6 +93,7 @@ class GalleryCollectionViewController: UICollectionViewController, UISearchBarDe
         }
     }
     
+    // gets the image urls for an image object(array of image urls depending on size)
     func getImageUrls(){
         for item in urlsForImgs{
             guard let url = item.href else {
@@ -101,7 +102,7 @@ class GalleryCollectionViewController: UICollectionViewController, UISearchBarDe
             }
             NetworkHandler.shared.networkTask(For: .galleryImage(url)) { (response) in
                 switch response{
-                case .error(let error):
+                case .error:
                     // Silently fails and is not added to the list of usable urls
                     break
                 case .data(let data):
