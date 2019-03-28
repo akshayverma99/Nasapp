@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - EGOCache (2.2.0)
+  - FSImageViewer (3.4):
+    - AFNetworking (~> 2.5)
+    - EGOCache (~> 2.1)
+    - UAProgressView (~> 0.1)
+  - Kingfisher (5.2.0)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - UAProgressView (0.1.4)
+
+DEPENDENCIES:
+  - FSImageViewer (~> 3.4)
+  - Kingfisher (~> 5.0)
+  - NVActivityIndicatorView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - EGOCache
+    - FSImageViewer
+    - Kingfisher
+    - NVActivityIndicatorView
+    - UAProgressView
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  EGOCache: 191fd213da6804d487b49b1a91772ba904f3e324
+  FSImageViewer: 0dea92069cce74a800b75cb8777c923f2be59124
+  Kingfisher: 07067cfacf371117330dceb4b4b8f5c4b691ab42
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  UAProgressView: 6796f5aa05037fb2940521636163b9db40a6c534
+
+PODFILE CHECKSUM: e0af1d07f7c7f8b0e3683aded3c49f1430ac9bdd
+
+COCOAPODS: 1.6.0

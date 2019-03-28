@@ -16,7 +16,32 @@ struct postcardImage: Codable{
     }
 }
 
+struct satImage: Codable{
+    var imageUrl: String
+    
+    enum CodingKeys: String, CodingKey{
+        case imageUrl = "url"
+    }
+}
+
 struct imageArray: Codable{
     var photos: [postcardImage]
 }
+
+struct wrapperCollection: Codable{
+    var collection: itemsArray
+}
+
+public struct itemsArray: Codable{
+    var items: [Item]
+}
+
+struct Item: Codable{
+    var href: String?
+}
+
+struct imageHolder{
+    var imageUrls: [String]
+}
+
 
